@@ -4,7 +4,7 @@ MAX_PER_BUYER = 4
 def sell_tickets():
     # Initialize tickets remaining and buyers count
     remaining_tickets = TOTAL_TICKETS
-    num_buyers = 0
+    num_happybuyers = 0
 
     # Display welcome messages and instructions
     print("Welcome to the cinema pre-sale!")
@@ -45,7 +45,7 @@ def sell_tickets():
 
             # Process purchase
             remaining_tickets -= tickets_requested
-            num_buyers += 1
+            num_happybuyers += 1
             print(f"Purchase successful: {tickets_requested} ticket(s) acquired.")
 
         except ValueError:
@@ -58,7 +58,7 @@ def sell_tickets():
     else:
         print(f"\nPre-sale closed. {remaining_tickets} tickets remained unsold.")
 
-    return num_buyers
+    return num_happybuyers
 
 
 def display_summary(total_buyers):

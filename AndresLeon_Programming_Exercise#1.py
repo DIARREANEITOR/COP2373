@@ -1,4 +1,4 @@
-TOTAL_TICKETS = 20
+TOTAL_TICKETS = 10
 MAX_PER_BUYER = 4
 
 def sell_tickets():

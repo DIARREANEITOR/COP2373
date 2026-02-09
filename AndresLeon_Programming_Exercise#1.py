@@ -18,7 +18,7 @@ def sell_tickets():
 
         try:
             # Prompt user for ticket quantity
-            user_input = input(f"How many tickets would you like to buy? (1-{MAX_PER_BUYER}): ")
+            user_input = input(f"Hello, welcome to Leon's cinema. How many tickets would you like to buy? (1-{MAX_PER_BUYER}): ")
 
             # Check if user wants to exit
             if user_input.lower() == '0':

@@ -1,6 +1,6 @@
 from functools import reduce
 
-
+#put
 def get_expenses(count):
     expenses_list = []
     for i in range(count):
@@ -9,11 +9,11 @@ def get_expenses(count):
         expenses_list.append({"type": expense_type, "amount": amount})
     return expenses_list
 
-
+#put def
 def calculate_total(expenses):
     return reduce(lambda acc, e: acc + e["amount"], expenses, 0)
 
-
+#put def
 def get_extreme_expense(expenses, find_max=True):
     if find_max:
         return reduce(lambda a, b: a if a["amount"] > b["amount"] else b, expenses)

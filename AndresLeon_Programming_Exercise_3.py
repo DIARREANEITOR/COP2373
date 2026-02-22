@@ -1,5 +1,6 @@
 from functools import reduce
-
+#fix def?
+#where def go?
 #put
 def get_expenses(count):
     expenses_list = []

@@ -1,5 +1,5 @@
 import re
-# why exercise 6? what happen with 4 and 5 ? :(   .
+# why exercise 6? what happen with 4 and 5 ? :(
 
 def validate_phone(phone):
     # That wii be to matches like :(123) 456-7890, 123-456-7890, or 1234567890
